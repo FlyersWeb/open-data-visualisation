@@ -6,11 +6,13 @@ Il s'agit d'un projet de data visualisation des données disponibles en open dat
 
 Pour cela il faudra bien évidemment un dataset associé.
 
+Ci-après la liste des projets de data visualisation.
+
 ## France
 
 ### Ile-de-France
 
-Absentéisme des élus en Ile-de-France
+* [Absentéisme des élus en Ile-de-France](assiduite/)
 
 ## Conclusion
 
