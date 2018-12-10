@@ -39,14 +39,6 @@ function prepareData() {
     return todraw;
 }
 
-function prepareDOM() {
-    function component() {
-        let element = document.createElement('svg');
-        return element;
-    }
-    return document.body.appendChild(component());
-}
-
 function drawChart() {
     let todraw = prepareData();
     todraw = todraw.slice(0, 20);

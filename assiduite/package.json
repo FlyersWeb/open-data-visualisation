@@ -2,7 +2,7 @@
   "name": "odata-idf-assiduite",
   "version": "1.0.0",
   "description": "Assiduite des élus d'Ile de France",
-  "main": "index.js",
+  "main": "dist/app.main.js",
   "scripts": {
     "start": "webpack-dev-server --open",
     "build": "webpack",
@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nassim Ben Ghmiss",
-  "license": "AFL-3.0",
+  "license": "GPL-3.0",
   "dependencies": {
     "d3": "^5.7.0",
     "mathjs": "^5.4.0",
