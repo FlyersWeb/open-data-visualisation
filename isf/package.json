@@ -1,0 +1,28 @@
+{
+  "name": "isf",
+  "version": "1.0.0",
+  "description": "Carte de l'ISF",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "server": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "css-loader": "^2.1.0",
+    "csv-loader": "^3.0.2",
+    "d3": "^5.7.0",
+    "express": "^4.16.4",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "papaparse": "^4.6.3",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-middleware": "^3.5.0",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
